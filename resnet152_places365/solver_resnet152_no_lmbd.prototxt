@@ -1,0 +1,17 @@
+test_iter: 890
+test_interval: 2000 #测试间隔
+test_initialization: true
+base_lr: 0.0001
+display: 50
+max_iter: 50000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.001
+stepsize: 10000
+snapshot: 5000
+snapshot_prefix: "/data/zhangming/aichallenger/resnet152_places365/snapshot/all_nolmbd"
+solver_mode: GPU
+net: "train_val_resnet152_no_lmbd.prototxt"
+#net: "train_val_resnet152.prototxt"
+solver_type: SGD

@@ -1,0 +1,1 @@
+/data/Experiments/caffe/build/tools/convert_imageset --shuffle --resize_height=224 --resize_width=224 /data/zhangming/aichallenger/ai_challenger_scene_validation_20170908/scene_validation_images_20170908/ /data/zhangming/aichallenger/ai_challenger_scene_validation_20170908/test_CA.txt /data/zhangming/aichallenger/img_val_lmdb

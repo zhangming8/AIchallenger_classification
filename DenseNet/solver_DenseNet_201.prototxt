@@ -1,0 +1,16 @@
+test_iter: 890
+test_interval: 2000
+test_initialization: true
+base_lr: 0.0001
+display: 100
+max_iter: 20000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 4000
+snapshot: 2000
+snapshot_prefix: "./snapshot/finetune_finetune_all_noscale_nolmdb_desnet"
+solver_mode: GPU
+net: "train_val_DenseNet_201.prototxt"
+solver_type: SGD

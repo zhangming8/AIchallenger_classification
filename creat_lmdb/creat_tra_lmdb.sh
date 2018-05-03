@@ -1,0 +1,1 @@
+/data/Experiments/caffe/build/tools/convert_imageset --shuffle --resize_height=224 --resize_width=224 /data/zhangming/aichallenger/ai_challenger_scene_train_20170904/scene_train_images_20170904/ /data/zhangming/aichallenger/ai_challenger_scene_train_20170904/train_CA.txt /data/zhangming/aichallenger/img_train_lmdb

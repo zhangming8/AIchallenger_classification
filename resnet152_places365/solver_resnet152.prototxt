@@ -1,0 +1,17 @@
+test_iter: 178
+test_interval: 10000000 #测试间隔>max_iter 则不测试
+test_initialization: false
+base_lr: 0.0005
+display: 50
+max_iter: 9999
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 2000
+snapshot: 9998
+snapshot_prefix: "/data/zhangming/aichallenger/resnet152_places365/snapshot/my"
+solver_mode: GPU
+# net: "train_val_resnet152_no_lmbd.prototxt"
+net: "train_val_resnet152.prototxt"
+solver_type: SGD
